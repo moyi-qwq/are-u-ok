@@ -2,8 +2,6 @@ name: task
 
 on:
   push:
-    branches:
-      - master
   schedule:
     - cron:  '0 0,5,12 * * *'
 
